@@ -3,6 +3,7 @@ Professional Web Scraper for JavaScript-Heavy Websites
 Scrapes skincare products from Qudo Beauty and exports to Excel
 """
 
+import utils.session
 import time
 import pandas as pd
 from selenium import webdriver
